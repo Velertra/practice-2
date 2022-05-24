@@ -1,4 +1,4 @@
 # practice-2
 
 
-practice git workflow
+practice exercises flex layout 6
