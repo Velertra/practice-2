@@ -1,4 +1,4 @@
 # practice-2
 
 
-practice exercises flex layout 6
+practice exercises for odin
