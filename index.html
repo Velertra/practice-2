@@ -1,41 +1,43 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Page Title</title>
-</head>
-<body>
-  <script>
-   
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>practice</title>
+  </head>
 
-   let userName = prompt("who's there", '');
-
-   if (userName === "Admin") {
-
-    let pass = prompt('password', '');
-  
-
-      if (pass  === "TheMaster") {
-
-        alert("welcome");
-         }
-        else if (pass === null || pass === '') {
-
-          alert("cancelled");
-         }
-        else {
-          alert("Wrong Password");
-         }
-
-   } else if (userName === '' || userName === null) {
-      alert("cancelled");
-    }
-    else {
-      alert("I dont know you");
-    }
+  <body>
     
+  </body>
+
+    <script>
+   /*   function isEmpty(x) {
+        if (Object.keys(x).length === 0) {
+          return true
+        }
+        return false
+      }
+  */
+
+      function newSum(obj) {
+        let result = []
+        for(let key in obj) {
+          // if the loop has started, there is a property
+        if (typeof obj[key] == 'number') {
+    
+          obj[key] *= 2;
+        }
+        //  
+        } return obj;
+      };
 
 
-  </script>
-</body>
+      let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+}
+
+newSum(salaries);
+    </script>
 </html>
